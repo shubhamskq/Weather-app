@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.search img {
+    width: 30px;
+    height: 26px;
+}
+
+.search input {
+    border: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 22px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 70px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
